@@ -1,0 +1,9 @@
+1. Select the game that isn’t working.
+2. Click Settings.
+3. Select "Game Load".
+4. Scroll down to "Game IOS".
+
+5. Enter the IOS slot to use.
+ -Try using 250 or 251, if 249 doesn’t work.
+
+7. Press ok and try to load the game.

@@ -1,0 +1,10 @@
+Gamecube ISO Organizer is used to automatically orgnaize the ".iso" files in a specfic way so that the Wii can read them.
+
+How to use
+
+1- Launch "Windows Powershell" as adminstrator.
+
+2- type: 
+powershell -executionpolicy bypass -f "PATH_TO\Gamecube ISO Organizer.ps1" -scan "PATH_TO\ISO Folder" -dest "PATH_TO\Directory"
+
+3- Click Enter and it will do to you every thing automatically. And the Wii-(USB_Loader_GX) will read them correctly.

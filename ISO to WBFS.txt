@@ -1,0 +1,8 @@
+ISO to WBFS
+
+Will let you convert ".iso to .wbfs" format
+
+1- Select the ".iso" file 
+2- Click "Save As" to choose where the ".wbfs" file will go.
+3- (Optional) If you wan't to split file to fit in (for "FAT32")
+4- Click "Convert"

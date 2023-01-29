@@ -1,0 +1,16 @@
+The forwarders are looking for the file located on:
+
+SD:/apps/APP_NAME/boot.dol
+SD:apps/APP_NAME/loader.dol
+USB1:/apps/APP_NAME/boot.dol
+USB1:/apps/APP_NAME/loader.dol
+
+And to Install them 
+
+Copy your .wad's to your SD Card like this
+SD:\WAD\WAD_NAME.wad
+
+Launch "WiiModLite" through "Homebrew Launcher"
+
+1- Go to WAD MANAGER
+2- Press "+" button to install all

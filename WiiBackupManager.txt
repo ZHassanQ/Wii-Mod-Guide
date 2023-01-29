@@ -1,0 +1,31 @@
+Wii Backup Manager
+
+Can be Used for 
+
+1- Format drive to "FAT32" format to make the "Wii" read the "HDD"
+
+By clicking "Tool" select "Format drives"
+Choose the drive "HDD"
+Choose the format "FAT32"
+Click Start
+
+
+2- Download Game Covers (Requires Internet Connection)
+
+Select the games you want to download their covers.
+Click "Covers"
+Click "Sync and download all ,missing"
+
+
+3- Transfer "wbfs" Files From "HDD" To Another
+
+Select the games you want to transfer.
+Click "Transfer"
+Select "Your Drive"
+
+
+4- Verfiy Game Data -Optional-
+
+Select the games you want to Verfiy their data .
+Click "Tools"
+Choose which yype of data you want to Verify.

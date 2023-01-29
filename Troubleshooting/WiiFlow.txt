@@ -1,0 +1,7 @@
+1. Select the game that isn’t working.
+2. Click the gear icon.
+
+3. Go to cIOS and use the arrows to select the IOS slot to use.
+ -Try using 250 or 251, if 249 doesn’t work.
+
+4. Press Save and try to load the game.

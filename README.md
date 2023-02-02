@@ -3,11 +3,9 @@ This is a repository contains a guide to how to mod your Nintendo Wii. (Guide fr
 
 ## Apps
 
-- [Priiloader]()
+- [Priiloader](https://github.com/DacoTaco/priiloader)
 - [Homebrew Channel]()
-- []()
-- []()
-- []()
+- [LetterBomb](https://github.com/fail0verflow/letterbomb)
 
 ---
 

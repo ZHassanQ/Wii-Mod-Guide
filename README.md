@@ -1,5 +1,6 @@
 # Wii-Mod-Guide
-This is a repository contains a guide to how to mod your Nintendo Wii. (Guide from Wii.Guide)
+
+This is a repository contains a guide to how to mod your Nintendo Wii. (Guide from Wii.Guide) You will likely required to have a 32GB - 64GB SD Card for best usage. You can use a HDD or USB Flash Drive but only for games, if you want to launch apps in the Wii or even mod your Wii it will require an SD Card.
 
 ## Apps
 
@@ -10,7 +11,7 @@ This is a repository contains a guide to how to mod your Nintendo Wii. (Guide fr
 
 ---
 
-- [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) Allows you to modify the video, autoboot, and bootdelay options from the BootMii ini file (sd:/bootmii/bootmii.ini) directly on the wii.
+- [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) Allows you to modify the video, autoboot, and bootdelay options from the BootMii ini file.
 - [BrawlStats](https://oscwii.org/library/app/brawlstats) BrawlStats reads your Smash Bros. Brawl save data and shows you a lot of information that the game hides!
 - [CleanRip](https://oscwii.org/library/app/CleanRip) A tool to backup your Gamecube/Wii Discs via IOS58.
 - [GCMM](https://oscwii.org/library/app/gcmm) A memory card manager for Wii/GC.
@@ -20,10 +21,17 @@ This is a repository contains a guide to how to mod your Nintendo Wii. (Guide fr
 - [RiiConnect24 Mail Patcher](https://oscwii.org/library/app/Mail-Patcher) A tool to patch your nwc24msg.cfg file to use Wii Mail with RiiConnect24.
 - [Riivolution](https://oscwii.org/library/app/riivolution) An on-the-fly game patcher for use with retail discs.
 - [SaveGame Manager GX](https://oscwii.org/library/app/SaveGame_Manager_GX) A Savegame/Mii extractor and installer.
+- [Some YAWMM Mod](https://oscwii.org/library/app/some-yawmm-mod) Yet Another Wad Manager Mod. Install/Uninstall Wads.
+- [USB Loader GX](https://oscwii.org/library/app/usbloader_gx) An app for loading backup games from a USB Device or SD card.
+- [WiiFlow WFL](https://oscwii.org/library/app/wiiflow) An app for loading backup games from a USB Device or SD card.
+- [WiiMC-SS](https://oscwii.org/library/app/wiimc-ss) Wii Media Player. An updated version of WiiMC.
+- [Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher) Play Wii games online via Wiimmfi!
+- [WiiXplorer SS](https://oscwii.org/library/app/wiixplorer-ss) Wii File Browser. A multi device file explorer.
+
 ---
 
-- [WiiBackupManager](http://www.wiibackupmanager.co.uk/)
 - [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager)
-- [WiiBaFu](https://github.com/larsenv/Wii-Backup-Fusion)
 - [GameCube ISO Organizer](https://github.com/DebugDax/Gamecube-ISO-Organizer)
 - [GameCube ISO Tool](http://www.wiibackupmanager.co.uk/gcit.html)
+- [WiiBackupManager](http://www.wiibackupmanager.co.uk/)
+- [WiiBaFu](https://github.com/larsenv/Wii-Backup-Fusion)

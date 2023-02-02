@@ -8,6 +8,7 @@ This is a repository contains a guide to how to mod your Nintendo Wii. (Guide fr
 - [LetterBomb](https://github.com/fail0verflow/letterbomb)
 - [NUS Downloader]()
 - [Priiloader](https://github.com/DacoTaco/priiloader)
+- [Wii-Guide](https://github.com/RiiConnect24/Wii-Guide) - [Website](https://wii.guide/)
 
 ---
 

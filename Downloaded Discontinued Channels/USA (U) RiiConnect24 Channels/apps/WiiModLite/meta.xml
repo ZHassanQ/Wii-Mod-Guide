@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+	<name>Wii Mod Lite</name>
+	<version>v1.7</version>
+	<release_date>2014092400000</release_date>
+	<coder>jskyboo,kkline38</coder>
+	<short_description>Wii Mod Lite(vWii)</short_description>
+	<long_description>WiiMod Lite for Wii,vWii
+</long_description>
+<ahb_access/>
+</app>

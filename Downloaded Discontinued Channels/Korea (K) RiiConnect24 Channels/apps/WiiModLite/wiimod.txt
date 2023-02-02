@@ -1,0 +1,68 @@
+;This config file is optional, if you want to just use the defaults you do not require this file
+
+; AutoLoadIOS : Auto Load this IOS at start of app(This will make you lose AHBPROT)
+; default =0(disabled), set =The IOS you want to load(ex 236 if you want to load IOS 236 at start)
+; To disable either comment out the line with a ';' or set =0
+AutoLoadIOS=236
+
+; AutoLoadOnInstall : If the AutoLoadIOS is not installed when it is should Wii Mod
+; reload AutoLoadIOS?
+; default =0(disabled), set =1 to reload the AutoLoadIOS when it is installed
+; To disable either comment out the line with a ';' or set =0
+AutoLoadOnInstall=0
+
+; DisableSetAHBPROT : The new SetAHBPROT patch has a downside, it causes usb
+; drives to not load. So this option allows you to disable the patch to reenable
+; usb functionality.
+; default =0(disabled), set =1 to disable SetAHBPROT patch and fix usb
+DisableSetAHBPROT=0
+
+; DeleteDefaultInsteadRemove : Change delete ios method when higher version is found during install
+; When installing an IOS over a clean IOS with a higher version the default action now is to try to
+; change the version and then install over it with the new IOS. This option switches the default
+; behavior back to just deleting the ios.
+; default =0, set =1 to override default
+; To disable either comment out the line with a ';' or set =0
+DeleteDefaultInsteadRemove=0
+
+; outputios : Save IOS details to csv after each checking of all IOSs
+; default =1, set =0 to disable saving to csv
+outputios=1
+
+; loadoldcsv : load IOS details saved from previous run( useful for AHBPROT mode )
+; default =1, set =0 to disable loading from csv
+loadoldcsv=1
+
+; printiosdetails : Print IOS details in IOS menu
+; default =1, set =0 to disable showing IOS details
+printiosdetails=1
+
+; filterwads : In wadmanager filter files to only wads
+; default =1, set =0 to disable filter other file types
+filterwads=1
+
+; smb settings : set username password ip address and sharename here
+; Here is an example config if you had a share at \\192.168.1.100\wad
+; with username "user" and password "password".
+SMB_USER=administrator
+SMB_PWD=
+SMB_SHARE=
+SMB_IP=
+
+; skipios : Sometimes loading an ios will error or leave the app(nandemu) which
+; is a problem for check ios, so this option allows you to blacklist IOS numbers
+; so that they aren't loaded during check ios. You can also have more than one set
+; so for example
+;skipios=253
+;skipios=254
+; these two would skip checking sorg's nandemu and bootmii. Note: the app already skips these two
+; IOSs so you shouldn't enable these examples.
+
+; skiphash : This option is similar to skipios but instead of blacklisting a number like 254,
+; this option blacklists a particular hash. You can get hashes of IOSs by disabling the checking
+; IOS and enabling dump hash on the check IOS menu. You can also have more than one set.
+; so for example
+;skiphash=58c5d8b1,ccaa035b,14d3e159,3209c037,a915552a
+;skiphash=8e669eb1,f72a1f6f,36b19cc6,1743a3f,c860f5cb
+; these two would skip checking sorg's nandemu and bootmii. Note: the app already skips these two
+; IOSs so you shouldn't enable these examples.

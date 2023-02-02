@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',init,false);function init(){if('serviceWorker'in navigator){navigator.serviceWorker.register('/images/service-worker.js').then((reg)=>{},(err)=>{});}}

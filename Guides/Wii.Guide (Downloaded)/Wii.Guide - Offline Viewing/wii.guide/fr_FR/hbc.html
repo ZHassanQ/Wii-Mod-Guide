@@ -1,0 +1,258 @@
+<!doctype html>
+
+<html lang="en" class="no-js">
+
+<!-- Mirrored from wii.guide/fr_FR/hbc by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Feb 2023 23:23:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+
+<title>Installation de chaîne homebrew et de BootMii - Wii Guide</title>
+<meta name="description" content="Wii modding guide">
+<meta name="author" content="RiiConnect24">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wii Guide">
+<meta property="og:title" content="Installation de chaîne homebrew et de BootMii">
+<script src="../cdn-cgi/apps/head/y9ThtK2ml9JO5a6cGO5VrZHcSGM.js"></script><link rel="canonical" href="hbc-2.html">
+<meta property="og:url" content="https://wii.guide/fr_FR/hbc.html">
+<meta name="twitter:site" content="@RiiConnect24">
+<meta name="twitter:title" content="Installation de chaîne homebrew et de BootMii">
+<meta name="twitter:description" content="Wii modding guide">
+<meta name="twitter:url" content="https://wii.guide/fr_FR/hbc.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@RiiConnect24">
+<script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "RiiConnect24",
+      "url" : "https://wii.guide",
+      "sameAs" : null
+    }
+  </script>
+<meta name="google-site-verification" content="NJHNJQvHO4NNbW_2IYtDhRIfX5-4kUpwkxsmVfM7S34" />
+<meta name="msvalidate.01" content="229FBDF9FE2F1A36CEDFAB9F171C6A4E">
+
+<link href="../feed.xml" type="application/atom+xml" rel="alternate" title="Wii Guide Feed">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="8aa637164d6cab5b4fa1f1ad-text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<link rel="stylesheet" href="../assets/css/main.css">
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icone364.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="../images/favicon-32x32e364.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="../images/favicon-194x194e364.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="../images/android-chrome-192x192e364.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="icon" type="image/png" href="../images/favicon-16x16e364.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="manifest" href="../images/manifeste364.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="../images/safari-pinned-tabe364.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="../images/favicone364.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="https://wii.guide/images/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="https://wii.guide/images/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+<link rel="stylesheet" type="text/css" href="../../cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="../../cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js" type="8aa637164d6cab5b4fa1f1ad-text/javascript"></script>
+<script type="8aa637164d6cab5b4fa1f1ad-text/javascript" src="../images/pwa.js"></script>
+<script type="8aa637164d6cab5b4fa1f1ad-text/javascript">
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#2e3440"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "Ce site Web utilise des cookies pour afficher la progression du guide actuel avec la barre latérale et pour améliorer le site."
+  }
+})});
+</script>
+
+</head>
+<body class="layout--single">
+<!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+<div class="masthead">
+<div class="masthead__inner-wrap">
+<div class="masthead__menu">
+<nav id="site-nav" class="greedy-nav">
+<ul class="visible-links">
+<li class="masthead__menu-item masthead__menu-item--lg"><a href="index.html">Guide Wii</a></li>
+<li class="masthead__menu-item"><a href="get-started-2.html">Commencer ici</a></li>
+<li class="masthead__menu-item"><a href="site-navigation-2.html">Navigation du site</a></li>
+<li class="masthead__menu-item"><a href="faq-2.html">Questions fréquemment posées</a></li>
+<li class="masthead__menu-item"><a href="riiconnect24-2.html">RiiConnect24</a></li>
+<li class="masthead__menu-item"><a href="wiimmfi-2.html">Wiimmfi</a></li>
+</ul>
+<ul class="hidden-links links-menu hidden"></ul>
+<ul class="hidden-links lang-menu hidden">
+<li class="masthead__menu-item"><a href="../hbc-2.html">English</a></li>
+<li class="masthead__menu-item"><a href="../es_ES/hbc-2.html">Español</a></li>
+<li class="masthead__menu-item"><a href="../de_DE/hbc-2.html">Deutsch</a></li>
+<li class="masthead__menu-item"><a href="hbc-2.html">Français</a></li>
+<li class="masthead__menu-item"><a href="../it_IT/hbc-2.html">Italiano</a></li>
+
+
+
+
+<li class="masthead__menu-item"><a href="../zh_CN/hbc-2.html">简体中文</a></li>
+
+<li class="masthead__menu-item"><a href="../pl_PL/hbc-2.html">Polski</a></li>
+<li class="masthead__menu-item"><a href="../tr_TR/hbc-2.html">Türkçe</a></li>
+
+
+
+
+
+<li class="masthead__menu-item"><a href="../ko_KR/hbc-2.html">한국어</a></li>
+
+
+
+
+<li class="masthead__menu-item"><a href="../ro_RO/hbc-2.html">Română</a></li>
+
+
+
+
+
+
+
+
+</ul>
+<button class="navsel"><div class="navicon"></div></button>
+<button class="langsel"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+</nav>
+</div>
+</div>
+</div>
+<div id="main" role="main">
+<div class="sidebar sticky" style="display: none;">
+<nav class="nav__list">
+<input id="ac-toc" name="accordion-toc" type="checkbox" />
+<label for="ac-toc">Toggle Menu</label>
+<ul class="nav__items">
+<li>
+<span class="nav__sub-title">Progression globale</span>
+<ol>
+<li style="display: none;" data-name="home"><a href='index.html'>Guide Wii</a></li>
+<li style="display: none;" data-name="faq"><a href='faq-2.html'>Questions fréquemment posées</a></li>
+<li style="display: none;" data-name="donations"><a href='donations.html'>Dons</a></li>
+<li style="display: none;" data-name="credits"><a href='credits.html'>Crédits</a></li>
+<li style="display: none;" data-name="riiconnect24"><a href='riiconnect24-2.html'>RiiConnect24</a></li>
+<li style="display: none;" data-name="wiimmfi"><a href='wiimmfi-2.html'>Wiimmfi</a></li>
+</ol>
+</li>
+</ul>
+</nav>
+</div>
+<article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+<meta itemprop="headline" content="Installation de chaîne homebrew et de BootMii">
+<div class="page__inner-wrap">
+<header>
+<h1 class="page__title" itemprop="headline">Installation de chaîne homebrew et de BootMii
+</h1>
+</header>
+<section class="page__content" itemprop="text">
+<hr>
+<div class="notice"><b>Pour de l'assistance en anglais, veuillez demander de l'aide sur <a href="https://discord.gg/b4Y7jfD">le serveur Discord de RiiConnect24</a>.</b></div>
+<hr>
+<aside class="sidebar__right">
+<nav class="toc">
+<header><h4 class="nav__title"><i class="fa fa-file-text"></i> Table des matières</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+<li><a href="#instructions" id="markdown-toc-instructions">Instructions</a></li>
+<li><a href="#lecture-nécessaire" id="markdown-toc-lecture-nécessaire">Lecture nécessaire</a></li>
+</ul>
+</nav>
+</aside>
+<p class="notice--info">Si vous avez besoin d’aide pour quoi que ce soit concernant ce tutoriel, veuillez rejoindre <a href="https://discord.gg/rc24"> le serveur RiiConnect24 Discord </a> (recommandé) ou [ envoyez-nous un e-mail à <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="3e4d4b4e4e514c4a7e4c57575d5150505b5d4a0c0a10505b4a">[email&#160;protected]</a> ](mailto: support @ riiconnect24 .net).</p>
+<p><img src="../images/hbc.png" alt="HBC Logo" /></p>
+<p>La chaîne homebrew permet de lancer des applications homebrew. BootMii est un logiciel permettant de faire une backup de la mémoire NAND de votre console, et si il est installé dans boot2, il permet une protection contre le brick.</p>
+<h4 id="instructions">Instructions</h4>
+<ol>
+<li>
+<p>Vous allez voir un avertissement contre les arnaques. Attendez 30 secondes pour voir le texte « Press 1 to continue » apparaître, puis appuyez sur le bouton 1. <img src="../images/Wii/ScamScreen.png" alt="Scam Screen" /></p>
+</li>
+<li>
+<p>Quand le programme d’installation HackMii apparaît, vous pouvez installer la chaîne homebrew ainsi que BootMii. <img src="../images/Wii/Results.png" alt="Results" /></p>
+</li>
+<li>
+<p>Appuyez sur Continue, choisissez Chaîne homebrew puis sélectionnez Install. <img src="../images/Wii/InstallHomebrewChannel.png" alt="Install the Homebrew Channel" /></p>
+</li>
+<li>
+<p>Appuyez sur Continue une fois l’installation terminée. <img src="../images/Wii/SuccessHBC.png" alt="Success Installing the Homebrew Channel" /></p>
+</li>
+<li>Quand installé, appuyez sur “back” et allez vers Bootmii.</li>
+<li>Si l’écran vous dit que vous pouvez installer BootMii en tant que boot2, faites-le. Cela offre la meilleur protection possible contre le brick. Ignorez cette étape si l’option ne s’affiche pas, dans ce cas, votre Wii n’est pas l’un des modèles précédents qui la prend en charge.</li>
+<li>Installez BootMii en tant qu’IOS, même si vous avez déjà installé BootMii en tant que boot2 à l’étape précédente. Si vous n’avez pas pu installer BootMii en tant que boot2, cela vous permettra toujours de créer une sauvegarde NAND.</li>
+</ol>
+<p class="notice--warning">Si vous n’avez pas de carte SD, vous ne pouvez pas installer ni utiliser BootMii et ne pourrez donc pas utiliser les avantages mentionnés. Vous pourrez toujours l’installer plus tard.</p>
+<p><img src="../images/Wii/InstallBootMii.png" alt="BootMii Installation" /></p>
+<ol>
+<li>Une fois terminé, sélectionnez <code class="language-plaintext highlighter-rouge">Continuer</code>, puis sélectionnez <code class="language-plaintext highlighter-rouge">Quitter</code> pour accéder la chaîne homebrew</li>
+</ol>
+<h4 id="lecture-nécessaire">Lecture nécessaire</h4>
+<p>Vous pouvez maintenant utiliser la chaîne homebrew pour lancer des applications homebrew. Open Shop Channel est une seule destination pour installer du homebrew, ce que vous allez apprendre plus tard dans se guide.</p>
+<p>Voici une astuce - quand entrain d’installer des applications homebrew sur votre card SD or périphériques USB, votre structure des dossiers doit ressembler sa:</p>
+<p><img src="images/Wii/FolderStructure.html" alt="Structure du dossier de carte SD appropriée" /></p>
+<p><code class="language-plaintext highlighter-rouge">AppName1</code> et <code class="language-plaintext highlighter-rouge">AppName2</code> sont des noms marqueur. Ne pas mettre multiple <code class="language-plaintext highlighter-rouge">apps</code> dossier dans le dossier <code class="language-plaintext highlighter-rouge">apps</code> lui-même.</p>
+<p class="notice--info">┃ ┣ 📂 AppName1</p>
+<p class="notice--info">┃ ┃ ┣ 📄 icon.png</p>
+<p class="notice--info">Conseil : vous pouvez savoir si BootMii est installé en tant que boot2 sur une Wii si votre lecteur de disque clignote très brièvement, seulement après le flash immédiat qui se produit lorsque vous appuyez sur le bouton POWER.</p>
+<hr>
+</section>
+<footer class="page__meta">
+</footer>
+</div>
+</article>
+</div>
+<div class="page__footer">
+<footer>
+
+
+<div class="page__footer-copyright">&copy; 2023 RiiConnect24 - <a href="https://github.com/RiiConnect24/Wii-Guide">Source</a> - <a href="site-navigation-2.html">Navigation du site</a> - <a href="privacy-policy.html"></a></div>
+</footer>
+</div>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../assets/js/main.min.js" type="8aa637164d6cab5b4fa1f1ad-text/javascript"></script>
+<script type="8aa637164d6cab5b4fa1f1ad-text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72766480-5', 'auto');
+  ga('send', 'pageview');
+</script>
+<script src="../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="8aa637164d6cab5b4fa1f1ad-|49" defer=""></script></body>
+
+<!-- Mirrored from wii.guide/fr_FR/hbc by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Feb 2023 23:23:53 GMT -->
+</html>

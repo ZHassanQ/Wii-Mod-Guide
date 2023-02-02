@@ -11,8 +11,8 @@ This is a repository contains a guide to how to mod your Nintendo Wii. (Guide fr
 
 ---
 
-- [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) Allows you to modify the video, autoboot, and bootdelay options from the BootMii ini file.
-- [BrawlStats](https://oscwii.org/library/app/brawlstats) BrawlStats reads your Smash Bros. Brawl save data and shows you a lot of information that the game hides!
+- [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) Allows you to modify the video, autoboot, and bootdelay options from BootMii ini file.
+- [BrawlStats](https://oscwii.org/library/app/brawlstats) Reads your Smash Bros Brawl save data and shows you a lot of information that the game hides!
 - [CleanRip](https://oscwii.org/library/app/CleanRip) A tool to backup your Gamecube/Wii Discs via IOS58.
 - [GCMM](https://oscwii.org/library/app/gcmm) A memory card manager for Wii/GC.
 - [MyMenuifyMod](https://oscwii.org/library/app/MyMenuifyMod) Theme Installer. Supports USB!

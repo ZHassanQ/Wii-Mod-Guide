@@ -1,0 +1,4 @@
+1- Go to your SD Card/apps/usb_loader_gx/theme
+ If "theme folder does not exist create a new folder and call it "theme""
+
+2- Extract your THEME_NAME.zip to this directory "SDCard/apps/usb_loader_gx/theme

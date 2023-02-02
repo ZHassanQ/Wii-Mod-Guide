@@ -4,9 +4,8 @@ This is a repository contains a guide to how to mod your Nintendo Wii. (Guide fr
 
 ## Apps
 
-- [d2x cIOS Installer]()
 - [LetterBomb](https://github.com/fail0verflow/letterbomb)
-- [NUS Downloader]()
+- [NUS Downloader](https://github.com/WiiDatabase/nusdownloader)
 - [Priiloader](https://github.com/DacoTaco/priiloader)
 - [Wii-Guide](https://github.com/RiiConnect24/Wii-Guide) - [Website](https://wii.guide/)
 
@@ -15,6 +14,7 @@ This is a repository contains a guide to how to mod your Nintendo Wii. (Guide fr
 - [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) Allows you to modify the video, autoboot, and bootdelay options from BootMii ini file.
 - [BrawlStats](https://oscwii.org/library/app/brawlstats) Reads your Smash Bros Brawl save data and shows you a lot of information that the game hides!
 - [CleanRip](https://oscwii.org/library/app/CleanRip) A tool to backup your Gamecube/Wii Discs via IOS58.
+- [d2x cIOS Installer](https://oscwii.org/library/app/d2x-cios-installer) Custom IOS installer. Official Homebrew to install d2x cIOS.
 - [GCMM](https://oscwii.org/library/app/gcmm) A memory card manager for Wii/GC.
 - [MyMenuifyMod](https://oscwii.org/library/app/MyMenuifyMod) Theme Installer. Supports USB!
 - [Nintendont](https://oscwii.org/library/app/Nintendont) GameCube Loader. Run GameCube games on a Wii or Wii U from an SD or HDD device.

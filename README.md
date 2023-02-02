@@ -27,6 +27,7 @@ This is a repository contains a guide to how to mod your Nintendo Wii. (Guide fr
 - [WiiFlow WFL](https://oscwii.org/library/app/wiiflow) An app for loading backup games from a USB Device or SD card.
 - [WiiMC-SS](https://oscwii.org/library/app/wiimc-ss) Wii Media Player. An updated version of WiiMC.
 - [Wiimmfi Patcher](https://oscwii.org/library/app/wiimmfipatcher) Play Wii games online via Wiimmfi!
+- [WiiModLite](https://oscwii.org/library/app/WiiModLite) A Wii Mod app to manage your Wii more advanced.
 - [WiiXplorer SS](https://oscwii.org/library/app/wiixplorer-ss) Wii File Browser. A multi device file explorer.
 
 ---

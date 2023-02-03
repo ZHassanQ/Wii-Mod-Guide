@@ -34,7 +34,6 @@ This is a repository contains a guide to how to mod your Nintendo Wii. (Guide fr
 
 - [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager)
 - [GameCube ISO Organizer](https://github.com/DebugDax/Gamecube-ISO-Organizer)
-- [GameCube ISO Tool](http://www.wiibackupmanager.co.uk/gcit.html)
 - [ThemeMii Mod](http://There_is_no_original_source_found_at_03/FEB/2023)
 - [WiiBackupManager](http://www.wiibackupmanager.co.uk/)
 - [WiiBaFu](https://github.com/larsenv/Wii-Backup-Fusion)

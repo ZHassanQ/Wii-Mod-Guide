@@ -1,7 +1,6 @@
 # Wii-Mod-Guide
 
-This is a repository contains a guide to how to mod your Nintendo Wii. (Guide from Wii.Guide) You will likely required to have a 32GB - 64GB SD Card for best usage. You can use a HDD or USB Flash Drive but only for games, if you want to launch apps in the Wii or even mod your Wii it will require an SD Card. Also this guide follow the route for LetterBomb to offer a fully offline modding way.
-
+This is a repository contains a guide to how to mod your Nintendo Wii. (Guide from Wii.Guide) You will likely required to have a 32GB - 64GB SD Card for best usage. You can use HDD or USB Flash Drive but only for games, if you want to launch apps in the Wii or even mod your Wii it will require an SD Card. Also this guide follow the route for LetterBomb to offer a fully offline modding way. If there is anything in Wii.Guide website that need an Internet connection go to this [repository guide](https://github.com/ZHassanQ/Wii-Mod-Guide/wiki) and you will find an already downloaded version of it for offline use.
 ## Apps
 
 - [LetterBomb](https://github.com/fail0verflow/letterbomb)

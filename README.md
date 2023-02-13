@@ -1,14 +1,17 @@
 # Wii-Mod-Guide
 
 This is a repository contains a guide to how to mod your Nintendo Wii. (Guide from Wii.Guide) You will likely required to have a 32GB - 64GB SD Card for best usage. You can use HDD or USB Flash Drive but only for games, if you want to launch apps in the Wii or even mod your Wii it will require an SD Card. Also this guide follow the route for LetterBomb to offer a fully offline modding way. If there is anything in Wii.Guide website that need an Internet connection go to this [repository guide](https://github.com/ZHassanQ/Wii-Mod-Guide/wiki) and you will find an already downloaded version of it for offline use.
-## Apps
+
+
+## CFW & Essentials
 
 - [LetterBomb](https://github.com/fail0verflow/letterbomb)
 - [NUS Downloader](https://github.com/WiiDatabase/nusdownloader)
 - [Priiloader](https://github.com/DacoTaco/priiloader)
 - [Wii-Guide](https://github.com/RiiConnect24/Wii-Guide) - [Website](https://wii.guide/)
 
----
+
+## Apps (Wii)
 
 - [BootMii Config Editor](https://oscwii.org/library/app/BootMiiConfigurationEditor) Allows you to modify the video, autoboot, and bootdelay options from BootMii ini file.
 - [BrawlStats](https://oscwii.org/library/app/brawlstats) Reads your Smash Bros Brawl save data and shows you a lot of information that the game hides!
@@ -29,7 +32,8 @@ This is a repository contains a guide to how to mod your Nintendo Wii. (Guide fr
 - [WiiModLite](https://oscwii.org/library/app/WiiModLite) A Wii Mod app to manage your Wii more advanced.
 - [WiiXplorer SS](https://oscwii.org/library/app/wiixplorer-ss) Wii File Browser. A multi device file explorer.
 
----
+
+## Apps (PC)
 
 - [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager)
 - [GameCube ISO Organizer](https://gbatemp.net/threads/gamecube-iso-gcm-organizer-script.480619/)

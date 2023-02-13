@@ -33,7 +33,7 @@ This is a repository contains a guide to how to mod your Nintendo Wii. (Guide fr
 - [WiiXplorer SS](https://oscwii.org/library/app/wiixplorer-ss) Wii File Browser. A multi device file explorer.
 
 
-## Apps (PC)
+## Apps (Computer)
 
 - [GameCube Backup Manager](https://github.com/AxionDrak/GameCube-Backup-Manager)
 - [GameCube ISO Organizer](https://gbatemp.net/threads/gamecube-iso-gcm-organizer-script.480619/)
